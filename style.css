@@ -4,7 +4,7 @@
 }
 #header h1 {
     position: absolute;
-	margin: 120px 170px;
+	margin: 120px 180px;
     font-family: exo;
     font-style: normal;
     font-weight: 200;
@@ -16,7 +16,7 @@
 
 #blurb {
     position: absolute;
-	margin: 480px 170px;
+	margin: 480px 180px;
     font-family: exo;
     font-style: normal;
     font-weight: 200;
@@ -25,12 +25,12 @@
     color: #ffffff;
     right: auto;
     float: none;
-	width: 570px;
+	width: 600px;
 }
 
 .accent {
 	background-size: contain;
-	margin: 390px 170px;
+	margin: 390px 180px;
 	height: 200px;
 	width: 250px;
 	background-image: url("images/green-accent.png");
@@ -166,7 +166,7 @@ div {
 
 .vertical-menu {
 	width: 100px;
-	margin: 50px 30px;
+	margin: 50px 33px;
 }
 
 .vertical-menu a {
@@ -179,7 +179,7 @@ div {
   font-family: exo;
   font-style: normal;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 17px;
 
 }
 
