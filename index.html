@@ -17,12 +17,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     width: 100%;
     height: 350px;
     overflow: hidden;
+
 }
 
 .crop img {
     /* width: 100%; */
     height: 100%;
     /* margin: -75px 200px; */
+    object-fit: fill;
 }
 
 </style>
@@ -37,7 +39,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </a>
     <img src="images/farm_portrait.jpg" style="width:55%;" class="w3-round"><br><br>
     <h4><b>Nathan Weil</b></h4>
-    <p class="w3-text-grey">Engineering</p>
+    <p class="w3-text-grey">Mechatronics, Aerospace, Design, and Human Engineer</p>
   </div>
   <div class="w3-bar-block">
     <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
@@ -45,8 +47,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
   <div class="w3-panel w3-large">
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="instagram.com"><i class="fa fa-instagram w3-hover-opacity"></i> </a>
+    <a href="linkedin.com"><i class="fa fa-linkedin w3-hover-opacity"></i> </a>
   </div>
 </nav>
 
@@ -73,17 +75,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
       <div class="w3-third w3-container w3-margin-bottom">
-        <div class="crop">
-          <a href="vtol.html"> <img src="images/vtol_rear.jpg" alt="Norway" class="w3-hover-opacity"> </a>
+
+          <div class="crop">
+            <a href="vtol.html"> <img src="images/vtol_rear.jpg" style="object-fit: cover;"  class="w3-hover-opacity"> </a>
           </div>
-        <div class="w3-container w3-white">
+
+          <div class="w3-container w3-white">
+
           <p><b>VTOL</b></p>
           <p>Aerospace • ArduPilot • UAV Design</p>
         </div>
       </div>
       <div class="w3-third w3-container w3-margin-bottom">
           <div class="crop">
-            <a href="vtol.html"> <img src="images/nzmilkyway.jpg" alt="Norway" class="w3-hover-opacity"> </a>
+            <a href="vtol.html"> <img src="images/nzmilkyway.jpg"  class="w3-hover-opacity"> </a>
           </div>        
         <div class="w3-container w3-white">
           <p><b>Astrophotography</b></p>
@@ -92,7 +97,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
       <div class="w3-third w3-container">
           <div class="crop">
-            <img src="images/ring_of_fire.jpg" alt="Norway" class="w3-hover-opacity">
+            <img src="images/ring_of_fire.jpg"  class="w3-hover-opacity">
           </div>
         <div class="w3-container w3-white">
           <p><b>Ring of Fire</b></p>
@@ -104,21 +109,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/braille.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="images/braille.jpg"  style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Braille Printer (In Progress)</b></p>
         <p>Mechanical Design • Mechatronics • Generative Design</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/rocket.jpg" alt="Norway" style="width:100%; height:300px; overflow: hidden;" class="w3-hover-opacity">
+      <img src="images/rocket.jpg"  style="width:100%; height:300px; overflow: hidden;" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Rocketry (In Progress)</b></p>
         <p>Composites • Structures</p>
       </div>
     </div>
     <div class="w3-third w3-container">
-      <img src="images/dbf.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <img src="images/dbf.png"  style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Design Build Fly (In Progress)</b></p>
         <p>Composites • Systems • Leadership</p>
@@ -129,21 +134,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <!-- Third Photo Grid-->
     <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
-          <img src="images/macaws.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <img src="images/macaws.jpg"  style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Photography</b></p>
             <p>Digital • Astro • Aerial</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
-          <img src="images/sea_turtle.jpg" alt="Norway" style="width:100%; height:300px; overflow: hidden;" class="w3-hover-opacity">
+          <img src="images/sea_turtle.jpg"  style="width:100%; height:300px; overflow: hidden;" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Sea Turtle Kinetic Sculpture</b></p>
             <p>Mechanical Design • Kinetic Art</p>
           </div>
         </div>
         <div class="w3-third w3-container">
-          <img src="images/3d_scanner.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <img src="images/3d_scanner.jpg"  style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b></b>3d Scanner</p>
             <p>Generative Design • Mechanical Design</p>
